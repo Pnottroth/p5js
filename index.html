@@ -1,0 +1,501 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Programmeren in p5.js</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+    <!-- Icon -->
+    <link rel="stylesheet" href="assets/fonts/line-icons.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
+    
+    <!-- Animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+  </head>
+  <body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->    
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="lni-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto w-100 justify-content-center clearfix">
+              <li class="nav-item active">
+                <a class="nav-link" href="#hero-area">
+                  Intro
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#basic">
+                  Basisprincipes van programmeren
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">
+                  Onderdelen programmeren
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#what">
+                  Wat is p5.js?
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#basis">
+                  Basis tutorials
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#coderen">
+                  Code voorbeelden
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Hero Area Start -->
+      <div id="hero-area" class="hero-area-bg">
+        <div class="waves"></div>   
+        <div class="container">   
+          <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+              <div class="contents"> 
+                <h2 class="head-title">Programmeren in p5.js</h2>
+                <p>P5.js is een open-source JavaScript bibliotheek waarbij het mogelijk is om visuele media te creëren die makkelijk en toegankelijk is voor iedereen. </p>
+                <div class="header-button">
+                  <a target='_blank' href="https://editor.p5js.org/" class="btn btn-common">Open de Web Editor</i></a>
+                  <a target='_blank' href="https://p5js.org/download/" class="btn btn-border video-popup">Download de gehele bibliotheek</i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+              <div class="intro-img">
+                <img class="img-fluid" src="assets/img/intro-mobile.png" alt="">
+              </div>     
+            </div>     
+          </div> 
+        </div> 
+      </div>
+      <!-- Hero Area End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+
+   <!-- About Section start -->
+   <section id="basic">
+   <div class="about-area section-padding bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-xs-12 info">
+          <div class="about-wrapper wow fadeInLeft" data-wow-delay="0.3s">
+            <div>
+              <div class="site-heading">
+                <h2 class="section-title">Basisprincipes van programmeren</h2>
+              </div>
+              <div class="content">
+                <p>
+                  Zoals we weten is taal een basisprincipe voor mensen om te communiceren. Woorden zelf zijn abstract, maar ze verwijzen naar een betekenis, naar een object of een actie. Programmeren is ook een taal dat wordt geschreven in de vorm van een code. Een code is een paragraaf met instructies of terwijl een to-do-lijstje. Dit to-do-lijstje moet met veel detail omschreven worden. Je schrijft tijdens het programmeren een code en probeert hiermee iets te vertellen wat het moet gaan doen. Bijvoorbeeld waar je bepaalde tekst wil hebben, vlakken, vormen, afbeeldingen etc. Het kan ook complexer je kan een code schrijven door iets te laten bewegen. Een code schrijven is eigenlijk een instructie die je mee geeft wat verandering te weeg brengt.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
+          <img class="img-fluid" src="assets/img/about/img-1.png" alt="" >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- About Section End -->
+
+    <!-- Services Section Start -->
+    <section id="services" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Onderdelen programmeren</h2>
+          <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+        </div>
+        <div class="row">
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="lni-code"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Variabelen</a></h3>
+                <p class="para-text">Variabele is code dat wordt gebruikt om waardes zoals getallen op te slaan. Je kunt bijvoorbeeld een variabele hebben die de x-positie van een bal onthoudt, de kleur van een vierkant of de score van een spel. Door variabelen te gebruiken hoef je minder te schrijven en dat maakt een variabele heel handig. Bijvoorbeeld: 
+                  <code><br>X = 15 <br>X + X = 30 </code><br>Je geeft de variabelen een logische naam bijvoorbeeld var studentenaam zodat je altijd kan nagaan waar de variabelen naartoe verwijst. Je hebt in p5.js build in variabelen die je kan vinden op de website.
+                   </p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.6s">
+              <div class="icon">
+                <i class="lni-code"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Objects</a></h3>
+                <p class="para-text">Object is een verzameling van eigenschappen die alles bij elkaar samenvoegt. Dus we hebben een object bijvoorbeeld een student en daar komen allemaal eigenschappen in voor die samen het object vormen. Bijvoorbeeld: 
+                 <br> • Leerjaar
+                 <br>• Schoolopleiding 
+                 <br> • Geboortejaar
+                 <br>• Woonplaats
+                 <br> Alles in javascript is een object en kan opgeslagen worden in een variabelen. Hier links hebben we het over variabelen. Je kan bijvoorbeeld variabelen samenvoegen en er een object van maken.
+                   </p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.9s">
+              <div class="icon">
+                <i class="lni-code"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Arrays</a></h3>
+                <p class="para-text">Met arrays voeg je meerdere waarde in een woord samen. Bijvoorbeeld: 
+                  <br><code>var mijnStudenten =  [‘Lisa’, ‘Jaap’, ‘Ashley, ‘Nick’]</code>.<br> Namen moeten in quotes geschreven worden. Als je wil verwijzen naar een studenten dan doe je dat zo: 
+                  <br><code>mijnStudenten[0]</code> (0 is het startpunt dus wordt verwezen naar Lisa) 
+                  <br><code>mijnStudenten[2]</code> (Is Ashley)
+                  <br>Voor de leesbaarheid van coderen is het handig om bijvoorbeeld de S van mijnStudenten kaplocks te maken zo valt het woord meer op.
+                   </p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
+              <div class="icon">
+                <i class="lni-code"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">FOR-LOOPS</a></h3>
+                <p class="para-text">Een for-loops herhaalt de input in een bepaalde volgorde. for-loops worden meestal gebruikt als er een herhaling moet worden uitgevoerd. Een for-loops zorgt ervoor dat de code kort blijft en niet dat je de code nog vijfitig keer onder elkaar hoeft te kopiëren en plakken. 
+                   </p> 
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="1.5s">
+              <div class="icon">
+                <i class="lni-code"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">FUNCTIONS</a></h3>
+                <p class="para-text">Bij p5.js heb je al twee standaard functies namelijk: <code>setup function </code>  en <code>draw function</code> . Deze functies behoren tot het p5.js bibliotheek. Je kan ook je eigen functies maken en oproepen. Als je meerdere codes hebt geschreven die van alles en nog wat doen is het fijn om met functies het programma te organiseren. Dit kan je doen door de code onder te verdelen in stukken en die in verschillende functies zetten met een bijpassende functie naam.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="1.8s">
+              <div class="icon">
+                <i class="lni-code"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">IF/ELSE</a></h3>
+                <p class="para-text">Je schrijft in code stapsgewijs op wat het programma moet doen, maar wat als er verschillende antwoorden zijn op een vraag. Daardoor zijn er ‘if’-statements en de ‘else’-statements ontstaan. Er is niet altijd dat elke if-statement ook een else-statement heeft. Aan de andere kant hoort wel elke else-statement bij een if-statement. Stel je bent bezig met een code schrijven en je wil iets laten bewegen wat als de bal naar rechts gaat wat gebeurd er dan? Wat als de bal verder gaat dan het scherm wat gebeurd er dan? Je kan maar 1 if of else maken om toch er meer uit te halen kan je bijvoorbeeld met ‘else if’ code werken. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+        <!-- Testimonial Section Start -->
+        <section id="what" class="testimonial section-padding">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div id="testimonials" class="owl-carousel wow fadeInUp" data-wow-delay="1.2s">
+                  <div class="item">
+                    <div class="testimonial-item">
+                      <div class="info">
+                        <h2><a href="#">Voor wie is P5.js?</a></h2>
+                      </div>
+                      <div class="content">
+                        <p class="para-text" class="description">P5.js is toegankelijk voor ontwerpers, docenten, beginners, creatievelingen en ieder ander die voor het eerst code wil schrijven. P5.js is gratis en een open-source bibliotheek zodat het toegankelijk is voor iedereen om te gebruiken. Dus zeker aan te raden voor mensen die nog nooit eerder hebben gecodeerd. Ook heeft P5.js community ervoor gezorgd dat mensen die slechtziend zijn ook kunnen coderen. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="testimonial-item">
+                      <div class="info">
+                        <h2><a href="#">Waarom P5.js?</a></h2>
+                      </div>
+                      <div class="content">
+                        <p class="para-text" class="description">Naast dat het gratis is en toegankelijk voor iedereen is het ook makkelijk voor een beginner, want coderen kan heel lastig en overweldigend zijn. P5.js biedt een web editor met een open-source bibliotheek aan die makkelijk te gebruiken is met hulp van het internet. Daarnaast hoef je ook geen software te downloaden, maar kan je makkelijk via de webbrowser je code schrijven. Het is wel handig als je een account hebt dan kan je onder je eigen naam al je codes opslaan. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="testimonial-item">
+                      <div class="info">
+                        <h2><a href="#">Wat is p5.js?</a></h2>
+                      </div>
+                      <div class="content">
+                        <p class="para-text" class="description">Het doel van p5.js om je een veilige plek te geven om programmeren rustig te leren. p5.js is een bibliotheek van functies met als taal JavaScript. Je kunt de beginstappen van programmeren leren. p5.js heeft een web editor waarin je code kan schrijven. Je kan bijvoorbeeld tekenen, kleur aanpassen en meteen resultaat zien.
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Testimonial Section End -->
+
+           <!-- Team Section Start -->
+    <section id="basis" class="section-padding bg-gray">
+      <div class="container">
+        <div class="section-header text-center">          
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Basis tutorials P5.js</h2>
+          <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInRight" data-wow-delay="0.2s">
+              <div class="team-img">
+                <a target="_blank" href="https://www.youtube.com/watch?v=yPWkPOfnGsw"><img class="img-fluid" src="assets/img/tutorial_1.png" alt=""></a>
+              </div>
+              <div class="contetn">
+                <div class="info-text">
+                  <h3><a target="_blank" href="https://www.youtube.com/watch?v=yPWkPOfnGsw">Programmeren met p5.js</a></h3>
+                </div>
+                <p>In deze tutorial wordt er een introductie gegeven over de website van p5.js en wat je er allemaal kan vinden. In deze tutorial wordt er nog geen code geschreven.  </p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInRight" data-wow-delay="0.4s">
+              <div class="team-img">
+                <a target="_blank" href="https://www.youtube.com/watch?v=MXs1cOlidWs"><img class="img-fluid" src="assets/img/tutorial_2.png" alt=""></a>
+              </div>
+              <div class="contetn">
+                <div class="info-text">
+                  <h3><a target="_blank" href="https://www.youtube.com/watch?v=MXs1cOlidWs">p5.js als web editor </a></h3>
+                </div>
+                <p>In deze tutorial begin je nog niet met coderen, maar wordt er uitgelegd hoe p5.js in de webbrowser als web editor wordt gebruikt. </p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInRight" data-wow-delay="0.6s">
+              <div class="team-img">
+                <a target="_blank" href="https://www.youtube.com/watch?v=c3TeLi6Ns1E"><img class="img-fluid" src="assets/img/tutorial_3.png" alt=""></a>
+              </div>
+              <div class="contetn">
+                <div class="info-text">
+                  <h3><a target="_blank" href="https://www.youtube.com/watch?v=c3TeLi6Ns1E">Tekenen in p5.js</a></h3>
+                </div>
+                <p> In deze tutorial begin je met coderen en legt hij heel goed de basis uit van canvas, kleuren tot vormen trekken. Er wordt ook uitgelegd wat de p5.js libary is en wat je daarmee kan doen. </p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInRight" data-wow-delay="0.8s">
+              <div class="team-img">
+                <a target="_blank" href="https://www.youtube.com/watch?v=riiJTF5-N7c"><img class="img-fluid" src="assets/img/tutorial_4.png" alt=""></a>
+              </div>
+              <div class="contetn">
+                <div class="info-text">
+                  <h3><a target="_blank" href="https://www.youtube.com/watch?v=riiJTF5-N7c">Kleuren gebruiken </a></h3>
+                </div>
+                <p>Deze tutorial gaat over kleuren R G B en hoe je die kan toepassen tijdens het coderen. Hier ga je beginnen met het basis coderen en simpel een kleur aanpassen. </p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInRight" data-wow-delay="0.6s">
+              <div class="team-img">
+                <a target="_blank" href="https://www.youtube.com/watch?v=LuGsp5KeJMM"><img class="img-fluid" src="assets/img/tutorial_5.png" alt=""></a>
+              </div>
+              <div class="contetn">
+                <div class="info-text">
+                  <h3><a target="_blank" href="https://www.youtube.com/watch?v=LuGsp5KeJMM">Errors en console in p5.js</a></h3>
+                </div>
+                <p>Tijdens coderen zal je veel errors krijgen in deze video wordt uitgelegd wat errors zijn. De error geeft meestal aan waar en wat er fout is en je kan het makkelijk aanpassen. </p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInRight" data-wow-delay="0.8s">
+              <div class="team-img">
+                <a target="_blank" href="https://www.youtube.com/watch?v=xJcrPJuem5Q"><img class="img-fluid" src="assets/img/tutorial_6.png" alt=""></a>
+              </div>
+              <div class="contetn">
+                <div class="info-text">
+                  <h3><a target="_blank" href="https://www.youtube.com/watch?v=xJcrPJuem5Q">Code en commentaar</a></h3>
+                </div>
+                <p>Tijdens het coderen is het handig om commentaar voor jezelf op te schrijven. Met commentaar kan je vertellen waar je nou eigenlijk mee bezig bent en helpt ook om je code uit te leggen aan andere mensen. </p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team Section End --> 
+
+    <section id="coderen" class="section-padding bg-gray">
+      <div class="container">
+        <div class="section-header text-center">          
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Code voorbeelden</h2>
+          <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInRight" data-wow-delay="0.2s">
+              <div class="team-img">
+                <a target="_blank" href="https://www.youtube.com/watch?v=LO3Awjn_gyU"><img class="img-fluid" src="assets/img/tutorial_9.png" alt=""></a>
+              </div>
+              <div class="contetn">
+                <div class="info-text">
+                  <h3><a target="_blank" href="https://www.youtube.com/watch?v=LO3Awjn_gyU">Stuiterbal coderen</a></h3>
+                </div>
+                <p>Hier moet nog een beschrijving.  </p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInRight" data-wow-delay="0.4s">
+              <div class="team-img">
+                <a target="_blank" href="https://www.youtube.com/watch?v=AaGK-fj-BAM"><img class="img-fluid" src="assets/img/tutorial_8.png" alt=""></a>
+              </div>
+              <div class="contetn">
+                <div class="info-text">
+                  <h3><a target="_blank" href="https://www.youtube.com/watch?v=AaGK-fj-BAM">De Snake Game coderen </a></h3>
+                </div>
+                <p>Hier moet nog een beschrijving. </p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInRight" data-wow-delay="0.6s">
+              <div class="team-img">
+                <a target="_blank" href="https://www.youtube.com/watch?v=UvSjtiW-RH8"><img class="img-fluid" src="assets/img/tutorial_7.png" alt=""></a>
+              </div>
+              <div class="contetn">
+                <div class="info-text">
+                  <h3><a target="_blank" href="https://www.youtube.com/watch?v=UvSjtiW-RH8">Het gebruik van events</a></h3>
+                </div>
+                <p>Hier moet nog een beschrijving. </p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInRight" data-wow-delay="0.8s">
+              <div class="team-img">
+                <a target="_blank" href="https://www.youtube.com/watch?v=GTWrWM1UsnA"><img class="img-fluid" src="assets/img/tutorial_10.png" alt=""></a>
+              </div>
+              <div class="contetn">
+                <div class="info-text">
+                  <h3><a target="_blank" href="https://www.youtube.com/watch?v=GTWrWM1UsnA">Boter-kaas-en-eieren coderen </a></h3>
+                </div>
+                <p>Hier moet nog een beschrijving. </p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team Section End --> 
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="section-padding">    
+      <div class="container">
+        <div class="section-header text-center">          
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Bronvermelding</h2>
+          <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+        </div>
+        <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.3s">   
+          <div class="col-lg-6 col-md-12 col-sm-12">
+  <li>Jeff Freymueller, 5 september 2017, “Fundamental Programming Principles: Variables and Data Types”, van <a target="_blank" href="http://www.gps.alaska.edu/jeff/Classes/GEOS436+636/02_fundamentals.pdf">http://www.gps.alaska.edu/jeff/Classes/GEOS436+636/02_fundamentals.pdf</a></li>
+  <li>MDN medewerkers, 23 maart 2019, “De basis begrippen van JavaScript”, van <a target="_blank" href="https://developer.mozilla.org/nl/docs/Learn/Getting_started_with_the_web/JavaScript_basics">https://developer.mozilla.org/nl/docs/Learn/Getting_started_with_the_web</a></li> 
+  <li>Oprichters, 2020, van <a target="_blank" href="https://p5js.org">https://p5js.org</a></li>   
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+          <li>Greet Zwaan, 10 juni 2019, “For Loop”, van <a target="_blank" href="https://coach-software-testen.nl/kennisbank/basiskennis-programmeren/loops/for-loop/">https://coach-software-testen.nl/kennisbank/basiskennis-programmeren/loops/for-loop/</a></li>
+          <li>Instructie, 2019, “ Hoofdstuk 3 programmeren”, van <a target="_blank" href="http://www.instruct.nl/fileadmin/Instruct/Informatica/Informatica__Module_4__H3.pdf">http://www.instruct.nl/fileadmin/Instruct/Informatica/Informatica__Module_4__H3.pdf</a></li>
+          <li>The code train, 2015, “p5.js youtube”, van <a target="_blank" href="https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw">https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</a></li>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+    	<i class="lni-arrow-up"></i>
+    </a>
+    
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>  
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.min.js"></script>
+      
+  </body>
+</html>
